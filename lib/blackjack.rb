@@ -44,8 +44,10 @@ def hit?(cardTotal)
   
   if move == "s"
     
+  elsif move == "h"
+      
   else
-    
+    invalid_command()
   end
 end
 
