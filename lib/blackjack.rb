@@ -42,6 +42,11 @@ def hit?(cardTotal)
   prompt_user()
   move = get_user_input()
   
+  if move == "s"
+    
+  else
+    
+  end
 end
 
 def invalid_command
