@@ -67,6 +67,6 @@ def runner
   welcome()
   cardTotal = initial_round()
   cardTotal = hit?(cardTotal)
-  cardTotal < 21 ? hit?() : end_game()
+  cardTotal < 21 ? hit?(cardTotal) : end_game(cardTotal)
 end
     
